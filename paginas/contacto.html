@@ -25,6 +25,46 @@
           </nav>
         </div>
       </header>
+      <div class="contacto">
+        <h3>Entradas y contacto</h3>
+        <p>
+          Completa este formulario de ejemplo. En el examen se te pedirá algo
+          muy similar en otra página.
+        </p>
+        <form action="completed.html">
+          <input
+            type="Primer nombre"
+            id="first name"
+            placeholder="Indica tu nombre"
+            required
+          />
+          <label for="email">Email <span>*</span></label>
+          <input
+            type="email"
+            name="Email"
+            id="email"
+            placeholder="llefiamusicfest@gmail.com"
+            required
+          />
+          <label for="">
+            <select name="Selecciona una entrada">
+              <option value="">VIP</option>
+              <option value="">1 dia</option>
+              <option value="">3 dias</option>
+            </select>
+          </label>
+          <label for="recibir">
+            ¿Quieres recibir el boletín del festival?
+            <input type="radio" name="recibir" value="Si" />
+            Si, quiero recibirlas
+            <input type="radio" name="recibir" value="No" />
+            No, no quiero recibirlas
+          </label>
+          <p>Acepto la política de privacidad</p>
+          <input type="checkbox" name="Intereses[]" value="aceptar" required>
+          <button>Enviar</button>
+        </form>
+      </div>
     </div>
   </body>
 </html>
