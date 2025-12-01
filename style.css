@@ -53,6 +53,7 @@ nav li{
     padding-top: 30px;
     display: flex;
     justify-content: center;
+    padding-bottom: 400px;
 }
 
 /* CUADRADO ES EL DIV PARA EL RECUADRO DENTRO DE MAIN */
@@ -72,4 +73,11 @@ nav li{
 
 footer{
     background-color: #020617;
+    padding-bottom: 20px;
+    border-top: solid 1px #374151;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
 }
