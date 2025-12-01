@@ -1,0 +1,75 @@
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-color: #0b0b10;
+}
+
+/* HEADER */
+header {
+  background-color: #1a2332;
+  border-bottom: solid 1px #f97316;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headertext h1,
+.headertext h2 {
+  margin: 5px 0;
+  text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.navegar {
+  margin-top: 10px;
+}
+
+/* MENU */
+nav ul {
+  display: flex;
+  gap: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+nav li{
+    border: solid 1px #374151;
+    background-color: #374151;
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+
+/* MAIN */
+.main{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* CUADRADO ES EL DIV PARA EL RECUADRO DENTRO DE MAIN */
+.cuadrado{
+    border: solid 1px #374151;
+    background-color: #030718;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+    border-radius: 10px;
+}
+.cuadrado h3{
+    color: #F97316;
+}
+
+
+footer{
+    background-color: #020617;
+}
